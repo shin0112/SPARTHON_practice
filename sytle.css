@@ -1,0 +1,79 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    background-image: url(design/벚꽃배경1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.title {
+    margin-top: 50px;
+    color: deeppink;
+}
+
+.msg {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.bucket {
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    position: relative;
+
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    background-image: url("design/Bucket01.png");
+    color: white;
+}
+
+.img2 {
+    background-image: url("design/Bucket02.png");
+    color: #E8344E;
+}
+
+.img3 {
+    background-image: url("design/Bucket03.png");
+    color: #E8344E;
+}
+
+.img4 {
+    background-image: url("design/Bucket04.png");
+    color: white;
+}
+
+.img5 {
+    background-image: url("design/Bucket05.png");
+    color: white;
+}
+
+.img6 {
+    background-image: url("design/Bucket06.png");
+    color: #E8344E;
+}
